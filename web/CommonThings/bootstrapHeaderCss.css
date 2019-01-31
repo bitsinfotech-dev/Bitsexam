@@ -1,0 +1,69 @@
+            
+@import url('https://fonts.googleapis.com/css?family=Abel');
+body{
+    font-family: 'Abel', sans-serif;  
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+.navbar .navbar-toggle{
+    position: absolute;
+    right: 0px;
+    top:0px;
+}
+.dropdown{
+
+    border-bottom:thin double orange;
+}
+.dropdown-menu{
+    min-width: 100%;
+    border:thin double orange;
+    background-color: rgba(1,1,1,.7) !important;
+}
+footer .address{
+    display: none;
+
+}
+.navbar{
+    background-color: rgba(1,1,1,.4);
+}
+.navbar-header img{
+    padding: 8px;
+}
+.navbar li a:active{
+    background-color: rgba(1,1,1,.4);
+}
+.navbar li a:visited{
+    background-color: rgba(1,1,1,.4);
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: whitesmoke;
+
+}
+.navbar li a:hover{
+    color: orange;
+}
+.navbar ul li a:hover , .dropdown:hover{
+    background-color: transparent;
+    /*border-bottom:thin double orange;*/
+}
+.dropdown{
+
+    border-bottom:thin double orange;
+}
+.dropdown-menu{
+    min-width: 100%;
+    border:thin double orange;
+    background-color:rgba(1,1,1,.7);
+}
+.navbar .navbar-toggle span{
+    background-color: white;
+    color: orange;
+}
+footer{
+    padding: 10px;
+    background-color: rgba(1,1,1,.6);
+    margin-top: 400px;
+}

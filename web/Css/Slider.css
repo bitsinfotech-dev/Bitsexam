@@ -1,0 +1,122 @@
+main .slider-container * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: 'Gudea', sans-serif;
+  font-weight: normal
+}
+body {
+  background: #eee
+}
+main .slider-container h1 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 60px;
+  color: #333
+}
+main .slider-container h1 a {
+  font-size: 14px;
+  color: #aaa;
+  background: #fff;
+  border-radius: 5px;
+  padding: 2px 5px;
+  border: 1px solid #dcdcdc;
+  text-decoration: none
+}
+main .slider-container h1 a:hover {
+  color: #0fe0ba;
+  text-decoration: underline
+}
+main .slider-container .slider {
+  width: 100%;
+  max-width: 750px;
+  padding: 0 50px;
+  margin: 25px auto 0;
+  height: 350px;
+  position: relative;
+}
+main .slider-container .slider ul, .slider ul li {
+  width: 100%;
+  height: 100%
+}
+main .slider-container .slider ul {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px
+}
+main .slider-container .slider ul li {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  background-size: cover; /* semon #f98686 */
+  background-position: center;
+  color: #fff;
+  font-family: serif;
+}
+main .slider-container .slider ul li:first-of-type {
+  background-image: url("http://www.misr5.news/wp-content/uploads/2015/10/6957804-girl-children-blonde-blue-eyes-autumn-mood.jpg")
+}
+main .slider-container .slider ul li:nth-of-type(2) {
+  background-image: url("http://favim.com/orig/201107/19/cute-flowers-girl-pink-pretty-Favim.com-110225.jpg")
+}
+main .slider-container .slider ul li:nth-of-type(3) {
+  background-image: url("http://www.tsitut.net/wp-content/uploads/2016/04/born-to-stand-out.jpg")
+}
+main .slider-container .slider ul li:nth-of-type(4) {
+  background-image: url("https://37.media.tumblr.com/tumblr_lxkb5dtDuF1r5o9ano1_500.jpg")
+}
+main .slider-container .slider ul li:last-of-type {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/03/08/5f/03085f3adecf31a0ded89aec58e5bbed.jpg")
+}
+main .slider-container .slider .controll {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 44%;
+  border-bottom: 3px solid #333;
+  border-left: 3px solid #333;
+  cursor: pointer;
+  color: #333
+}
+main .slider-container .slider .controll:first-of-type {
+  transform: rotate(45deg);
+  left: 20px
+}
+main .slider-container .slider .controll:last-of-type {
+  transform: rotate(225deg);
+  right: 20px
+}
+main .slider-container .slider .controll:hover, .slider .controll.active {
+  border-color: #f98686 /* rose */
+}
+main .slider-container .slider ol {
+  text-align: center;
+  padding-top: 10px
+}
+main .slider-container .slider ol li {
+  display: inline-block;
+  margin-right: 5px;
+}
+main .slider-container .slider ol .fa {
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  font-weight: normal;
+}
+main .slider-container .slider ol li:hover .fa:before, .slider ol li.active .fa:before {
+  content: "\f111"
+}
+/* .slider ul li.active {
+  z-index: 999;
+  left: 0
+} */
+@media(max-width: 490px) {
+  main .slider-container h1 {font-size: 45px}
+}
+@media(max-width: 350px) {
+  main .slider-container h1 {font-size: 25px}
+}

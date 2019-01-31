@@ -1,0 +1,81 @@
+body{
+    font-size: 15px;
+}
+.navbar .navbar-default{
+  
+  background-image: url(../../../../Image/bodyBG.jpg);
+            background-size: cover;
+  }
+  .navbar-default li:hover{
+      background-color: rgba(2,2,2,.3);
+   }
+
+
+.content_col .div_box{
+    text-align: justify;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+.content_col .list-group{margin-bottom: 0px;}
+.content_col .ul_box{
+    list-style: square;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    font-size: 23px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+
+
+}
+.content_col .ul_box li,.para{
+    font-size: 18px;
+    margin: 0px 0px 20px 10px;
+    list-style: square;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.content_col .for_moreThan3Line{
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: justify;
+}
+.content_col textarea{
+    min-height: 300px;
+    width:100%;
+    font-size: 20px;
+    text-align:left; 
+    color: white;
+    background-color: rgba(10,10,13,.9);
+    border-radius: 5px;
+    box-shadow: black -1px -1px 30px;
+    border-left:  #990000 double thick ;
+    cursor: copy;
+    overflow: hidden;
+    
+
+
+}
+.content_col font{
+    font:italic small-caps bold 20px georgia;
+    color: green;
+}
+font{
+    color:green;
+}
+ h1 {
+    font-family: Times, serif;    
+}
+@media (max-width:768px) {
+    body{
+        font-size: 25px;
+    }
+}
